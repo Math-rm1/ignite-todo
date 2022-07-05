@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.task button.button:focus {
+  border-radius: 4px;
+}
+
 .task p {
   flex: 1;
 
