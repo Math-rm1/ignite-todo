@@ -21,14 +21,14 @@ function Task({ id, name, isDone, onTaskDeletion, onTaskToggle }: TaskProps) {
   }
 
   return (
-    <li className={styles.task}>
+    <li className={`${isDone ? styles.taskDone : ''} ${styles.task}`}>
       <button
         className={`${styles.button} ${styles.checkButton}`}
         onClick={handleToggleTask}
       >
         {isDone ? <ChkChecked /> : <ChkUnchecked />}
       </button>
-      <p className={isDone ? styles.taskDone : ''}>{name}</p>
+      <p className={styles.taskName}>{name}</p>
       <button
         onClick={handleDeleteTask}
         className={`${styles.button} ${styles.trashButton}`}

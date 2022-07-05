@@ -17,11 +17,13 @@
 }
 
 .task svg {
-  cursor: pointer;
-
   line-height: 0;
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.task button.checkButton svg {
+  cursor: pointer;
 }
 
 .task p {
@@ -67,8 +69,16 @@
   border-radius: 4px;
 }
 
-.taskDone {
+.taskDone .taskName {
+  transition: all 0.2s ease-in-out;
+
   text-decoration-line: line-through;
 
   color: var(--gray-300);
+}
+
+.taskDone {
+  transition: all 0.2s ease-in-out;
+
+  border-color: var(--gray-500);
 }
