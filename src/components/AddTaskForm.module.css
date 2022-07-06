@@ -34,14 +34,13 @@
   align-items: center;
   justify-content: center;
 
-  transition: background-color 0.125s;
+  transition: all 0.125s;
 }
 
 .button:disabled {
-  background: var(--gray-400);
   color: var(--gray-200);
 
-  opacity: 0.9;
+  opacity: 0.75;
 
   cursor: not-allowed;
 }
