@@ -11,7 +11,7 @@ Projeto chamado ToDo List, desenvolvido no desafio do primeiro módulo da trilha
 É uma lista de tarefas onde os usuários podem interagir criando novas tarefas, marcando-as como concluídas e excluindo-as. O design da aplicação é totalmente responsivo, se adaptando para a resolução do dispositivo utilizado.
 
 ### :computer: Layout web
-  <div>
+  <div align="center">
     <img alt="web 01" height="250" src="https://github.com/Math-rm1/ignite-todo/blob/master/src/assets/ignite-todo-web.png"/> 
     <span>&nbsp</span>
     <img alt="web 02" height="250" src="https://github.com/Math-rm1/ignite-todo/blob/master/src/assets/ignite-todo-web2.png"/> 
